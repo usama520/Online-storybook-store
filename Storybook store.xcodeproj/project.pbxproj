@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50076C2C1C744AAC001B1F55 /* BackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 50076C2B1C744AAC001B1F55 /* BackButton.png */; };
+		50076C2E1C747F10001B1F55 /* backArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 50076C2D1C747F10001B1F55 /* backArrow.png */; };
 		505A5AD51C627DB400C71CDA /* CustomCellDesign.xib in Resources */ = {isa = PBXBuildFile; fileRef = 505A5AD41C627DB400C71CDA /* CustomCellDesign.xib */; };
 		505A5AD81C62870500C71CDA /* StoryListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 505A5AD71C62870500C71CDA /* StoryListCell.m */; };
 		505A5ADD1C633F6900C71CDA /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 505A5ADC1C633F6900C71CDA /* ImageViewController.m */; };
@@ -19,7 +21,6 @@
 		508892D51C5A2738007573BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 508892D31C5A2738007573BD /* Main.storyboard */; };
 		508892D71C5A2738007573BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 508892D61C5A2738007573BD /* Assets.xcassets */; };
 		508892DA1C5A2738007573BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 508892D81C5A2738007573BD /* LaunchScreen.storyboard */; };
-		509E3A871C72648F008D3CAC /* BackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 509E3A861C72648F008D3CAC /* BackButton.png */; };
 		50A254971C6B7D26001FC7A2 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A254961C6B7D26001FC7A2 /* CustomTableViewCell.m */; };
 		50DBB5971C6DAB0400AF2D17 /* ChatLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50DBB5961C6DAB0400AF2D17 /* ChatLabel.m */; };
 		50E24BD81C6A146500804680 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E24BD71C6A146500804680 /* MediaPlayer.framework */; };
@@ -29,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		1C00B532C71B143E3A58F3CE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		50076C2B1C744AAC001B1F55 /* BackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackButton.png; sourceTree = "<group>"; };
+		50076C2D1C747F10001B1F55 /* backArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backArrow.png; sourceTree = "<group>"; };
 		504A4C9E4DF915C5D7D6E0D9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		505A5AD41C627DB400C71CDA /* CustomCellDesign.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomCellDesign.xib; path = "Storybook store/CustomCellDesign.xib"; sourceTree = "<group>"; };
 		505A5AD61C62870400C71CDA /* StoryListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryListCell.h; sourceTree = "<group>"; };
@@ -49,7 +52,6 @@
 		508892D61C5A2738007573BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		508892D91C5A2738007573BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		508892DB1C5A2738007573BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		509E3A861C72648F008D3CAC /* BackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackButton.png; sourceTree = "<group>"; };
 		50A254951C6B7D26001FC7A2 /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
 		50A254961C6B7D26001FC7A2 /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 		50DBB5951C6DAB0400AF2D17 /* ChatLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatLabel.h; sourceTree = "<group>"; };
@@ -104,7 +106,8 @@
 		505A5AE21C63CBEE00C71CDA /* Stories */ = {
 			isa = PBXGroup;
 			children = (
-				509E3A861C72648F008D3CAC /* BackButton.png */,
+				50076C2D1C747F10001B1F55 /* backArrow.png */,
+				50076C2B1C744AAC001B1F55 /* BackButton.png */,
 				50DBB5951C6DAB0400AF2D17 /* ChatLabel.h */,
 				50DBB5961C6DAB0400AF2D17 /* ChatLabel.m */,
 				505A5AE31C63CC1600C71CDA /* Stories.h */,
@@ -241,12 +244,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				509E3A871C72648F008D3CAC /* BackButton.png in Resources */,
 				508892DA1C5A2738007573BD /* LaunchScreen.storyboard in Resources */,
 				508892D71C5A2738007573BD /* Assets.xcassets in Resources */,
 				505A5AE11C63BE6900C71CDA /* leftArrow.png in Resources */,
 				505A5AD51C627DB400C71CDA /* CustomCellDesign.xib in Resources */,
+				50076C2E1C747F10001B1F55 /* backArrow.png in Resources */,
 				505A5ADF1C639FAD00C71CDA /* downArrow.png in Resources */,
+				50076C2C1C744AAC001B1F55 /* BackButton.png in Resources */,
 				508892D51C5A2738007573BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

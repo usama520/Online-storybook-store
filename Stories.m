@@ -16,7 +16,6 @@
     NSMutableArray *arrayOfStories;
     NSMutableArray *senders;
     NSMutableArray *sequence;
-    __weak IBOutlet UIBarButtonItem *backButton;
     int senderIndex;
     __weak IBOutlet UITableView *tblView;
 }
@@ -47,6 +46,7 @@
         }
     }];
 }
+
 
 
 
